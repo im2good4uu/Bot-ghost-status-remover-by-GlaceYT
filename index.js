@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Watching GVCRP","Watching nap" ,"Watching discord.gg/2CXvMQkX5V" ,"Watching 102 Members" ,"GVCRP On Top"];
+const statusMessages = ["Watching GVCRP","Watching nap" ,"discord.gg/2CXvMQkX5V" ,"Watching 103 Members" ,"GVCRP On Top"];
 
 
 let currentIndex = 0;
