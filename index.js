@@ -45,7 +45,7 @@ const channelId = '';
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
+    console.log(`\x1b[36m%s\x1b[0m`, `|    ☞ Logged in as ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
     process.exit(1);
@@ -91,9 +91,9 @@ function updateStatusAndSendMessages() {
 }
 
 client.once('ready', () => {
-  console.log(`\x1b[36m%s\x1b[0m`, `|    GYYYYAT
-  console.log(`\x1b[36m%s\x1b[0m`, `|    Skibid
-  console.log(`\x1b[36m%s\x1b[0m`, `|    I am a true Sigma
+  console.log(`\x1b[36m%s\x1b[0m`, `|   ☞ GYYYYAT
+  console.log(`\x1b[36m%s\x1b[0m`, `|   ☞ Skibid
+  console.log(`\x1b[36m%s\x1b[0m`, `|   ☞ I am a true Sigma
   updateStatusAndSendMessages();
 
   setInterval(() => {
